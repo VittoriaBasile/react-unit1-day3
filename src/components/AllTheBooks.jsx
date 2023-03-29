@@ -12,7 +12,7 @@ class AllTheBook extends Component {
                 <Card.Img className="img-fluid" variant="top" src={book.img} />
                 <Card.Body className="CardBody">
                   <Card.Title className="text-truncate">{book.title}</Card.Title>
-                  <Card.Text>categoria: {book.category}</Card.Text>
+                  <Card.Text>genere: {book.category}</Card.Text>
                   <Card.Text>prezzo: {book.price}€</Card.Text>
                   <Card.Text>codice: {book.asin}</Card.Text>
                 </Card.Body>
