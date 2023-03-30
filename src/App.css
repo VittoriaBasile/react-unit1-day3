@@ -19,6 +19,9 @@
 .CardBody {
   background-color: floralwhite;
 }
+.card {
+  box-shadow: 12px 12px 12px rgba(10, 10, 10, 0.658);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
